@@ -3,12 +3,12 @@
 This Dockerfile allow the containarisation of [FloPoCo](http://flopoco.gforge.inria.fr/), a « generator of arithmetic cores (Floating-Point Cores, but not only) for FPGAs (but not only).»
 
 ## Building the docker image
-1. clone this repository
-2. Go into the `docker_build` repository
+* clone this repository
+* Go into the `docker_build` repository
 ```
 cd docker_build
 ```
-3. Build the docker image
+* Build the docker image
 ```
 docker build -t flopoco .
 ```
