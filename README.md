@@ -17,7 +17,7 @@ docker build -t flopoco .
 
 Set the following alias (you might want to put that line in your .bashrc) :
 ```
-alias flopoco="docker run -v $PWD:/flopoco_workspace flopoco"
+alias flopoco="docker run --rm=true -v $PWD:/flopoco_workspace flopoco"
 ```
 
 ### Enabling bash autocompletion
